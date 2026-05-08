@@ -1,0 +1,18 @@
+# .gitignore
+
+# Ignorar datos (¡Crucial para Data Science!)
+data/raw/
+data/processed/
+
+# Ignorar entornos virtuales (si usas uno)
+venv/
+.env
+
+# Ignorar archivos temporales de Python y Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Ignorar archivos del sistema operativo
+.DS_Store
+Thumbs.db
